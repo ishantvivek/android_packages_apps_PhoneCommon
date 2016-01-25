@@ -27,7 +27,7 @@ import android.view.animation.PathInterpolator;
 import java.lang.Float;
 
 public class AnimUtils {
-    public static final int DEFAULT_DURATION = -1;
+    public static final int DEFAULT_DURATION = 0;
     public static final int NO_DELAY = 0;
 
     public static final Interpolator EASE_IN = new PathInterpolator(0.0f, 0.0f, 0.2f, 1.0f);
